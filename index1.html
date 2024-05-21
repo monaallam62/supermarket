@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.css">              
+        <title>Supermarket</title>
+    </head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/download (1).png " alt="logo" height="45px" width="100px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="https://gomlamarket.com/" target="_blank">Explore</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="https://gomlamarket.com/" target="_blank">Cart</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="https://gomlamarket.com/" target="_blank">Favorites</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://gomlamarket.com/" target="_blank">Account</a>
+            </li>
+            </ul>
+            <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-danger" type="submit">Search</button>
+            <button class="btn btn-outline-danger mx-2" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
+            <button class="btn btn-outline-danger" type="submit">Logout</button>
+            </form>
+        </div>
+        </div>
+    </nav>  
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner ">
+        <div class="carousel-item active">
+            <a href="#"><img src="images/cooking_w_CTA_ar_5818059e5f.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+            <a href="#"><img src="images/Homepage_Hero_Banner_Desktop_1232x280_English_copy_2_e15afb447f.webp" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+            <a href="#"><img src="images/Hero_Banner_Desktop_EN_2_fb7af6d93b.webp" class="d-block w-100" alt="..."></a>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </form>
+        </div>
+        <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal" >submit</button>
+        </div> -->
+    </div>
+    </div>
+</div>
+    <section class="bayeb">
+        <div class="arrpro">
+            <p>Dairy Product Department </p>
+            <button class="btt"> <a href="https://www.amazon.com/Best-Discounted-Products/s?k=Best+Discounted+Products" target="_blank">View all</a></button>
+        </div><!-- arrpro -->
+        <div class="baypros">
+            <div class="pro pro1">
+                <img src="images/16230.htm" width="250" height="200" alt="">
+                <p>GOMLA Cosmetics</p>
+                <h5>  gomla Feta Cheese</h5>
+                <i class="fas fa-heart"></i>
+                <button class="btn"> Add to bag
+                    <pre>EGP 35.0</i></pre>
+                </button>
+            </div>
+            <div class="pro pro2">
+                <img src="images/1700Wx1700H_468738_main.avif" width="250" height="200" alt="">
+                <p>GOMLA Cosmetics</p>
+                <h5>  gomla Almarai Yogart</h5>
+                <i class="fas fa-heart"></i>
+                <button class="btn"> Add to bag
+                    <pre>EGP 45.0</pre>
+                </button>
+            </div>
+            <div class="pro pro3">
+                <img src="images/4749_3.jpg_480Wx480H" width="250" height="200" alt="">
+                <p>GOMLA Cosmetics</p>
+                <h5> gomla Abo Elwald Cheese</h5>
+                <i class="fas fa-heart"></i>
+                <button class="btn"> Add to bag
+                    <pre>EGP 25.0</pre>
+                </button>
+            </div>
+            <div class="pro pro4">
+                <img src="images/91198819_2896259470428841_7784233233037656064_n.jpg" width="250" height="200" alt="">
+                <p>GOMLA Cosmetics</p>
+                <h5> gomla Almarai Milk</h5>
+                <i class="fas fa-heart"></i>
+                <button class="btn"> Add to bag
+                    <pre>EGP 50.0</pre>
+                </button>
+            </div>
+            <div class="pro pro5">
+                <img src="images/wfrna-La-Vache-Qui-rit-3-3.jpg" width="250" height="200" alt="">
+                <p>GOMLA Cosmetics</p>
+                <h5> gomla La-Vache-Qui-rit</h5>
+                <i class="fas fa-heart"></i>
+                <button class="btn"> Add to bag
+                    <pre>EGP 26.0</pre>
+                </button>
+            </div>
+        </div><!-- Bayeb pros -->
+    </section><!-- bayeb -->
+    <section class="bayeb">
+        <div class="arrpro">
+            <p>Meat Product Department</p>
+            <button class="btt"><a href="https://www.amazon.com/Best-Discounted-Products/s?k=Best+Discounted+Products" target="_blank">View all</a></button>
+        </div><!-- arrpro -->
+        <div class="baypros">
+            <div class="pro pro1">
+                <img src="images/pngtree-many-meats-on-a-wooden-tray-are-on-display-image_2502625.jpg" width="250" height="200" alt="">
+                <p>GOMLA Cosmetics</p>
+                <h5>  gomla Fresh Meat</h5>
+                <i class="fas fa-heart"></i>
+                <button class="btn"> Add to bag
+                    <pre>EGP 350.0</pre>
+                </button>
+            </div>
+            <div class="pro pro2">
+                <img src="images/1c11c9e55f4577ed267a34fc9df0f77e3d684957.jpg" width="250" height="200" alt="">
+                <p>GOMLA Cosmetics</p>
+                <h5>  gomla Chicken</h5>
+                <i class="fas fa-heart"></i>
+                <button class="btn"> Add to bag
+                    <pre>EGP 219.0</pre>
+                </button>
+            </div>
+            <div class="pro pro3">
+                <img src="images/IMG_0951.webp" width="250" height="200" alt="">
+                <p>GOMLA Cosmetics</p>
+                <h5> gomla Fresh Sausage</h5>
+                <i class="fas fa-heart"></i>
+                <button class="btn"> Add to bag
+                    <pre>EGP 165.0</pre>
+                </button>
+            </div>
+            <div class="pro pro4">
+                <img src="images/11e06c70-8a4a-46ed-b69d-7bc938047ac2.jpg" width="250" height="200" alt="">
+                <p>GOMLA Cosmetics</p>
+                <h5> gomla Fresh Saucisse</h5>
+                <i class="fas fa-heart"></i>
+                <button class="btn"> Add to bag
+                    <pre>EGP 220.0</pre>
+                </button>
+            </div>
+            <div class="pro pro5">
+                <img src="images/386998e5-376e-47da-a21b-cede1f290033.jpg" width="250" height="200" alt="">
+                <p>GOMLA Cosmetics</p>
+                <h5> gomla Bluebeef</h5>
+                <i class="fas fa-heart"></i>
+                <button class="btn"> Add to bag
+                    <pre>EGP 260.0</pre>
+                </button>
+            </div>
+        </div><!-- Bayeb pros -->
+    </section><!-- bayeb -->
+    <section class="bayeb">
+        <div class="arrpro">
+            <p>Boycott Product Department</p>
+            <button class="btt"><a href="https://www.amazon.com/Best-Discounted-Products/s?k=Best+Discounted+Products" target="_blank">View all</a></button>
+        </div><!-- arrpro -->
+        <div class="baypros">
+            <div class="pro pro1">
+                <img src="images/f3nuDyxSdJGqc6M7xLyLDEEdActLCKL2.jpg" width="250" height="200" alt="">
+                <p>GOMLA Cosmetics</p>
+                <h5>  gomla TAT Makarna Pasta</h5>
+                <i class="fas fa-heart"></i>
+                <button class="btn"> Add to bag
+                    <pre>EGP 23.5.0</pre>
+                </button>
+            </div>
+            <div class="pro pro2">
+                <img src="images/71wiAAkU+fL._AC_UL600_SR600,600_.jpg" width="250" height="200" alt="">
+                <p>GOMLA Cosmetics</p>
+                <h5>  gomla Sindbad Oil</h5>
+                <i class="fas fa-heart"></i>
+                <button class="btn"> Add to bag
+                    <pre>EGP 55.0</pre>
+                </button>
+            </div>
+            <div class="pro pro3">
+                <img src="images/oil2.jpg" width="250" height="200" alt="">
+                <p>GOMLA Cosmetics</p>
+                <h5> gomla Virgin Olive Oil</h5>
+                <i class="fas fa-heart"></i>
+                <button class="btn"> Add to bag
+                    <pre>EGP 230.0</pre>
+                </button>
+            </div>
+            <div class="pro pro4">
+                <img src="images/520698246-largeHimalaya rice.jpg" width="250" height="200" alt="">
+                <p>GOMLA Cosmetics</p>
+                <h5> gomla Himalayan Queen Rice</h5>
+                <i class="fas fa-heart"></i>
+                <button class="btn"> Add to bag
+                    <pre>EGP 300.0</pre>
+                </button>
+            </div>
+            <div class="pro pro5">
+                <img src="images/34408.jpg" width="250" height="200" alt="">
+                <p>GOMLA Cosmetics</p>
+                <h5> gomla lays Chipsy</h5>
+                <i class="fas fa-heart"></i>
+                <button class="btn"> Add to bag
+                    <pre>EGP 260.0</pre>
+                </button>
+            </div>
+        </div><!-- Bayeb pros -->
+    </section><!-- bayeb -->
+    <!-- bills -->
+    <section class="bayeb">
+        <div class="arrpro">
+            <p>Discount available Department </p>
+            <button class="btt"><a href="https://www.amazon.com/Best-Discounted-Products/s?k=Best+Discounted+Products" target="_blank">View all</a></button>
+        </div><!-- arrpro -->
+        <div class="baypros">
+            <div class="pro pro1">
+                <img src="images/New-product-card.webp" width="250" height="200" alt="">
+                <p>GOMLA Cosmetics</p>
+                <h5>  gomla Cabbage meat</h5>
+                <i class="fas fa-heart"></i>
+                <button class="btn"> Add to bag
+                    <pre>EGP 400.0 <del>450.0EG</del></pre>
+                </button>
+            </div>
+            <div class="pro pro2">
+                <img src="images/resized_ahr0chm6ly9hc2hpywutynvja2v0lnmzlmv1lxdlc3qtmy5hbwf6b25hd3muy29tl3byb2r1y3rzlzuxmdktzxgtmc5qcgc=.jpg" width="250" height="200" alt="">
+                <p>GOMLA Cosmetics</p>
+                <h5>  gomla Halwani Fried Chicken</h5>
+                <i class="fas fa-heart"></i>
+                <button class="btn"> Add to bag
+                    <pre>EGP 150.0 <del>190.0EG</del></pre>
+                </button>
+            </div>
+            <div class="pro pro3">
+                <img src="images/download (1).jpg" width="250" height="200" alt="">
+                <p>GOMLA Cosmetics</p>
+                <h5> gomla Chicken Stripes</h5>
+                <i class="fas fa-heart"></i>
+                <button class="btn"> Add to bag
+                    <pre>EGP 125.0 <del>140.0EG</del></pre>
+                </button>
+            </div>
+            <div class="pro pro4">
+                <img src="images/جبن-شيدر.jpg" width="250" height="200" alt="">
+                <p>GOMLA Cosmetics</p>
+                <h5> gomla spread Cheese</h5>
+                <i class="fas fa-heart"></i>
+                <button class="btn"> Add to bag
+                    <pre>EGP 45.0 <del>55.0EG</del></pre>
+                </button>
+            </div>
+            <div class="pro pro5">
+                <img src="images/مربى-الفراولة-1.jpg" width="250" height="200" alt="">
+                <p>GOMLA Cosmetics</p>
+                <h5> gomla Strawberry Jam</h5>
+                <i class="fas fa-heart"></i>
+                <button class="btn"> Add to bag
+                    <pre>EGP 26.0 <del>35.0EG</del></pre>
+                </button>
+            </div>
+        </div><!-- Bayeb pros -->
+
+<div class="container">
+    <div class="header">
+    <h1>Supermarket Bills</h1>
+    </div>
+    <label for="name">Customer Name :</label>
+    <input type="text" id="name"><br><br>
+    <div class="text">
+    <label for="num">Phone Number :</label>
+    <input type="text" id="num">
+    <br><br>
+    </div>
+    <div class="text1">
+    <label for="address">Address :</label>
+    <input type="text" id="address">
+    <br><br>
+    </div>
+    <table>
+    <tr>
+        <th>item</th>
+        <th>price</th>
+        <th>quantity</th>
+    </tr>
+    <tr>
+        <td>Biskrem Coca</td>
+        <td>5.0 EGP</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Orginal Recipe(KFC)</td>
+        <td>5.0 EGP</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Ulker</td>
+        <td>2.0 EGP</td>
+        <td>4</td>
+    </tr>
+    </table>
+    <div class="total">
+    <p><strong>Total:</strong> 28.0 EGP</p>
+    </div>
+</div>
+<!-- reports -->
+<div class="container">
+    <h2>Sales Report for a Month</h2>
+    <table>
+    <tr>
+        <th>item</th>
+        <th>Quantity Sold</th>
+        <th>Price</th>
+        <th>Total</th>
+    </tr>
+    <tr>
+        <td>Orginal Recipe(KFC)</td>
+        <td>200</td>
+        <td>5</td>
+        <td>1000</td>
+    </tr>
+    <tr>
+        <td>Biskrem Coca</td>
+        <td>333</td>
+        <td>3</td>
+        <td>999</td>
+    </tr>
+    <tr>
+        <td>Ulker</td>
+        <td>300</td>
+        <td>2</td>
+        <td>600</td>
+    </tr>
+    <tr>
+        <td>Chipsy With Taste Of Cheese</td>
+        <td>200</td>
+        <td>5</td>
+        <td>1000</td>
+    </tr>
+    <tr>
+        <td>Digestive Creams</td>
+        <td>100</td>
+        <td>3</td>
+        <td>300</td>
+    </tr>
+    <tr>
+        <td>Chipsy With Taste Of Kebab</td>
+        <td>150</td>
+        <td>5</td>
+        <td>750</td>
+    </tr> 
+    </table>
+</div>
+<div class="end">
+    <div class="fi">
+        <div class="fi1">
+            <div class="fi-content">
+            <div class="fi-pic">
+                <img src="images/8fcbfc58866585.5a0c555509b20.jpg" alt="gia" width="200px" height="100px" draggable="false">
+                <div class="ico">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/login " target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.google.co.uk/" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+                </div><!-- ico -->
+            </div><!-- fi-pic -->
+            <div class="p-title"><p >COPYRIGHT &copy; 2024 . ALL RIGHT RESERVED BY GOMLA</p></div>
+            </div><!-- fi-content -->
+    <script src="javascript/script.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>    
+</html>
